@@ -1,0 +1,25 @@
+{
+  "name": "subscriptionapi",
+  "version": "1.0.0",
+  "description": "subscription",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha — timeout 10000"
+  },
+  "author": "sachin pachori",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.2",
+    "request": "^2.88.0",
+    "swagger-ui-express": "^4.1.1",
+    "sync-request": "^6.1.0",
+    "touch-for-windows": "^1.0.0"
+  },
+  "start": "server.js"
+}
